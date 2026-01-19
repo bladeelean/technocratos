@@ -6,17 +6,17 @@ const experienceData = [
         now: true,
     },
     {
-        name: "эдо «практика»",
+        name: "ЭДО «практика»",
         post: "Продуктовый дизайнер",
         years: "2021 – 2023",
     },
     {
-        name: "барс груп",
+        name: "Барс груп",
         post: "UX/UI-дизайнер корпоративного портала",
         years: "2021 – 2021",
     },
     {
-        name: "vexel",
+        name: "Vexel",
         post: "UX/UI-дизайнер финансового проекта Vexel.com",
         years: "2019 – 2021",
     },
