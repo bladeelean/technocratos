@@ -35,7 +35,16 @@ export const PortfolioDesktop = () => {
                     className={cn()} 
                     key={idx+ "desktop"}
                 >
-                    <Image className="w-[80vw] object-cover h-[47.15rem]" src={item.image} alt={item.image} width={1600} height={1200} />
+                    {(Array.isArray(item.image) ? item.image : [item.image]).map((src, i) => (
+  <Image
+    key={`${src}-${i}`}
+    className="w-[80vw] object-cover h-[47.15rem]"
+    src={src}
+    alt=""
+    width={1600}
+    height={1200}
+  />
+))}>
                     
                     {item.name && (
                         <p className={cn(" text-4xl mt-8 font-bold text-center")}>{item.name}</p>
