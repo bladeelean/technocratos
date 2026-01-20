@@ -30,7 +30,7 @@ export const PortfolioMobile = () => {
         }, 
         {
             image: ["/images/mobile/4.png", "/images/mobile/51.png","/images/mobile/53.png","/images/mobile/52.png","/images/mobile/55.png","/images/mobile/58.png","/images/mobile/57.png","/images/mobile/56.png","/images/mobile/5.png","/images/mobile/7.png","/images/mobile/54.png"],
-            name: <span className=" text-gradient-welcome">Другие экраны...</span>
+            name: <span className="text-gradient-welcome">Другие экраны...</span>
         }
     ];
 
