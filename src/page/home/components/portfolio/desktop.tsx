@@ -21,13 +21,13 @@ export const PortfolioDesktop = () => {
             name: "Статистика звонков",
             description: "Передо мной стояла задача заменить сводную статистику детализированной аналитикой, что со временем позволила выявить поведенческие зависимости и использовать их для повышения эффективности работы операторов.",
             children: <DataOne />
-       }, 
+        }, 
         {
             image: ["/images/desktop/44.png"],
             name: <span className=" text-gradient-welcome">Другие экраны...</span>
         }
-    ];
-    
+    ];        
+       
     return (
         <div className=" container space-y-20 ">
             {desktopData.map((item, idx) => (
